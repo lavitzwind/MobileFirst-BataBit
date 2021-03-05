@@ -1,4 +1,5 @@
 .main-exchange___container .container {
+    display: flex;
     justify-content: center;
     margin: 0 auto;
 }
