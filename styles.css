@@ -149,8 +149,20 @@ main {
     color: #757575;
 }
 
+.main-exchange___container .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+
 .main-currency___table {
     width: 70%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -175,6 +187,7 @@ main {
 }
 
 .currency-table___container {
+    scroll-snap-align: center;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
